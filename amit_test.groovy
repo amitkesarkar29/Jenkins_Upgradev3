@@ -10,6 +10,6 @@ job('maven-build-dsl') {
         maven('clean package', 'maven-samples/single-module/pom.xml')
     }
     publishers {
-        archiveArtifacts '**/*.war'     
+        archiveArtifacts '**/*.jar'
     }
 }
