@@ -15,7 +15,7 @@ agent any
         }
         stage('Deploy') {
             steps {
-                echo 'Deploying steps started....'
+                echo 'Deploying steps started.....'
             }
         }
     }
