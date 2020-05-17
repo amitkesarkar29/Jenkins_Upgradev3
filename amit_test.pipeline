@@ -5,17 +5,17 @@ agent any
     stages {
         stage('Build') {
             steps {
-                echo 'Building..'
+                echo 'Building steps started..'
             }
         }
         stage('Test') {
             steps {
-                echo 'Testing..'
+                echo 'Testing steps started..'
             }
         }
         stage('Deploy') {
             steps {
-                echo 'Deploying....'
+                echo 'Deploying steps started....'
             }
         }
     }
